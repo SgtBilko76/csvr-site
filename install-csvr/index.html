@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Install CSVR – csvr.online</title>
+<meta name="description" content="CSVR – the unofficial Counter Strike 1.6 VR port by Team Beef for Quest and Pico standalone headsets.">
+<link rel="icon" href="../assets/favicon-32.webp" sizes="32x32">
+<link rel="icon" href="../assets/icon-192.webp" sizes="192x192">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.webp">
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/main.js" defer></script>
+</head>
+<body id="top">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="header">
+  <div class="header__inner">
+    <a class="header__logo" href="../"><img src="../assets/logo.webp" alt="csvr.online" width="160" height="40"></a>
+    <nav id="header-menu" class="header__menu"><ul><li><a href=".././">Home</a></li><li><a href="../install-csvr/" aria-current="page">Install CSVR</a></li></ul></nav>
+    <button class="header__hamburger" aria-label="Menu" aria-controls="header-menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<main id="main-content">
+  <article class="article">
+<h1>Install CSVR</h1>
+<h3><strong>The port is supported on:</strong></h3>
+<ul>
+<li>Meta Quest 2</li>
+<li>Meta Quest Pro</li>
+<li>Meta Quest 3/3s</li>
+<li>Pico Neo 3 (all variants)</li>
+<li>Pico 4 (all variants)</li>
+</ul>
+<p><strong>Required:</strong> You need to own Counter Strike 1.6 on Steam or elsewhere. Make sure it is installed correctly on your computer. (Get Counter Strike 1.6 on steam: <a href="https://store.steampowered.com/app/10/CounterStrike/" target="_blank" rel="noreferrer noopener">https://store.steampowered.com/app/10/CounterStrike/</a> The pack also includes CS: Condition Zero, which is not working though, so ignore it.)</p>
+<p>Video tutorial:&nbsp;<a href="https://youtu.be/wrCPeKznm5E?si=cUS_LjMGoAECqSSV" data-type="link" data-id="https://youtu.be/wrCPeKznm5E?si=cUS_LjMGoAECqSSV" target="_blank" rel="noreferrer noopener">https://youtu.be/wrCPeKznm5E?si=cUS_LjMGoAECqSSV</a></p>
+<p>1) Download the APK and install via <a href="https://sidequestvr.com/app/45868" target="_blank" rel="noreferrer noopener">SideQuest</a>.</p>
+<p>2) Start CSVR once on your headset, so the app can create the folder. Give permissions if asked. Note: The app will create the following folder on your headset: “xash”. Don’t mind that it’s using the same base folder as Lambda1vr (Our HL1 VR port). It won’t interfere with it.</p>
+<p>3) Go to your Steam installation of Counter Strike 1.6. (The location is likely “SteamLibrary\steamapps\common\Half-Life”).</p>
+<p>4) Copy both folders “cstrike” and “valve” into the “xash” folder on your headset (if you already have Lambda1VR installed, the valve folder will already be present and doesn’t need copying again). Copy the whole folders, not just the contents. (Just drag and drop both folders into “xash”.)</p>
+<p>5) Start CSVR on your headset from “Unknown sources”.</p>
+<figure><img src="../assets/control_scheme.webp" alt="CSVR controller scheme" width="820" height="400" loading="lazy"></figure>
+<p><strong>Server Hosting – Hosting a game directly from the headset!</strong></p>
+<p>In CSVR you can host a multiplayer server directly on your headset. This works for local games and worldwide visible internet games. Meaning, you can create a server to play with friends, other community members or random strangers, just by using the in-game multiplayer menu. We recommend joining our discord to meet-up with other patron members to play with!</p>
+<p>(Discord link <a href="https://discord.gg/ueghpf9zfK" target="_blank" rel="noreferrer noopener">https://discord.gg/ueghpf9zfK</a>)</p>
+<p>If you’re interested in hosting your own server, the best results are achieved when your internet provider supports Full Cone NAT. This type of NAT configuration allows for more efficient and low-latency connections, making gameplay smoother and more responsive for everyone joining your server. You can easily check your NAT type by visiting <a href="https://www.checkmynat.com/" target="_blank" rel="noreferrer noopener">https://www.checkmynat.com/.</a> If you do not have this type of internet, your created servers may not be visible to other players.</p>
+<p>However, if Full Cone NAT isn’t available on your network, you can still host a game using the built-in in-client NAT traversal solution. While this method introduces slightly higher latency (mostly for Voice chat), it remains a functional option for most casual matches. Regardless of your network setup, joining other games is always supported and works seamlessly.</p>
+<p>CSVR features hosting a server directly on the headset for LAN and Internet games. If your friends can’t see your server, you likely need to click the NAT checkmark box in the multiplayer menu. NAT has slightly higher latency, so only use as a fallback option.</p>
+<p><strong>Cross Play</strong></p>
+<p>If you want to cross play with PC players, they will need to install the Xash3D-FWGS engine into their existing Counter-Strike 1.6 installation. This engine can be downloaded from the official GitHub release page: <a href="https://github.com/FWGS/xash3d-fwgs/releases/tag/continuous" target="_blank" rel="noreferrer noopener">https://github.com/FWGS/xash3d-fwgs/releases/tag/continuous.</a> In addition, they must also include the cs16-client library, which is available at: <a href="https://github.com/Velaron/cs16-client/releases/tag/continuous" target="_blank" rel="noreferrer noopener">https://github.com/Velaron/cs16-client/releases/tag/continuous.</a></p>
+<p>CSVR also features cross play with CS1.6 Xash3D on Android. Most servers you’ll see in the multiplayer browser are populated with mobile players playing with gamepad or touchpad controls.</p>
+<p>Note: The current build of CSVR does not feature cross play with Steam players (playing the original version).</p>
+  </article>
+</main>
+<footer class="footer">
+  <div class="footer__inner">
+    <p>© Copyright 2026 | <a href="../">csvr.online</a></p>
+    <p>Hosted on GitHub Pages</p>
+  </div>
+</footer>
+<a class="scroll-top" href="#top" aria-label="Scroll to top">&#8679;</a>
+</body>
+</html>
