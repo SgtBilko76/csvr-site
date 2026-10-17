@@ -33,7 +33,23 @@
 </ul>
 <p><strong>Required:</strong> You need to own Counter Strike 1.6 on Steam or elsewhere. Make sure it is installed correctly on your computer. (Get Counter Strike 1.6 on steam: <a href="https://store.steampowered.com/app/10/CounterStrike/" target="_blank" rel="noreferrer noopener">https://store.steampowered.com/app/10/CounterStrike/</a> The pack also includes CS: Condition Zero, which is not working though, so ignore it.)</p>
 <p>Video tutorial:&nbsp;<a href="https://youtu.be/wrCPeKznm5E?si=cUS_LjMGoAECqSSV" data-type="link" data-id="https://youtu.be/wrCPeKznm5E?si=cUS_LjMGoAECqSSV" target="_blank" rel="noreferrer noopener">https://youtu.be/wrCPeKznm5E?si=cUS_LjMGoAECqSSV</a></p>
-<p>1) <a href="https://github.com/SgtBilko76/csvr-site/releases/download/beta-0.6/CSVR-Beta0.6.apk" download>Download the APK (CSVR Beta 0.6)</a> and install via <a href="https://sidequestvr.com/app/45868" target="_blank" rel="noreferrer noopener">SideQuest</a>.</p>
+<p>1) Install the APK (CSVR Beta 0.6) with the installer box below, or <a href="https://github.com/SgtBilko76/csvr-site/releases/download/beta-0.6/CSVR-Beta0.6.apk" download>download the APK</a> and install it via <a href="https://sidequestvr.com/app/45868" target="_blank" rel="noreferrer noopener">SideQuest</a>.</p>
+<div class="install-card" id="install">
+<h3>Install from your browser</h3>
+<p class="inst-small">One click over USB, for Meta Quest and Pico: no SideQuest needed. Works in Chrome or Edge on a PC, Mac or Android phone.</p>
+<div class="installer" data-config="{&quot;relay&quot;: &quot;https://portroyale-apk-relay.portroyale.workers.dev&quot;, &quot;game&quot;: &quot;CSVR&quot;, &quot;assets&quot;: [{&quot;name&quot;: &quot;CSVR-Beta0.6.apk&quot;, &quot;url&quot;: &quot;https://github.com/SgtBilko76/csvr-site/releases/download/beta-0.6/CSVR-Beta0.6.apk&quot;, &quot;size&quot;: 73839883}]}"><p class="inst-msg">The installer needs JavaScript. Use the download button instead.</p></div>
+<details class="inst-help">
+<summary>First time? Before you start</summary>
+<ol>
+<li>Turn on developer mode. <strong>Quest:</strong> Meta Horizon app on your phone → Devices → your headset → Headset settings → Developer mode. <strong>Pico:</strong> Settings → General → About → tap <em>Software version</em> 7 times, then Settings → Developer → turn on USB debugging.</li>
+<li>Connect the headset to this computer with a USB cable that carries data (not a charge-only cable).</li>
+<li>Close SideQuest and Meta Quest Developer Hub. If you use adb, run <code>adb kill-server</code> first: only one program can talk to the headset at a time.</li>
+<li>Windows: if the headset doesn't show up in the list, install the <a href="https://developers.meta.com/horizon/downloads/package/oculus-adb-drivers/" target="_blank" rel="noreferrer noopener">Meta Quest ADB driver</a>.</li>
+<li>After pressing Connect, put on the headset and allow USB debugging for this computer.</li>
+</ol>
+</details>
+</div>
+<script type="module" src="../assets/installer.js"></script>
 <p>2) Start CSVR once on your headset, so the app can create the folder. Give permissions if asked. Note: The app will create the following folder on your headset: “xash”. Don’t mind that it’s using the same base folder as Lambda1vr (Our HL1 VR port). It won’t interfere with it.</p>
 <p>3) Go to your Steam installation of Counter Strike 1.6. (The location is likely “SteamLibrary\steamapps\common\Half-Life”).</p>
 <p>4) Copy both folders “cstrike” and “valve” into the “xash” folder on your headset (if you already have Lambda1VR installed, the valve folder will already be present and doesn’t need copying again). Copy the whole folders, not just the contents. (Just drag and drop both folders into “xash”.)</p>

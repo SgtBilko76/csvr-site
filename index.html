@@ -34,7 +34,23 @@
 <h2>Download</h2>
 <p>Latest release: <strong>CSVR Beta 0.6</strong> – the newest beta version, with a fixed game browser. For Meta Quest 2/3/3s/Pro and Pico 3/4/4 Ultra.</p>
 <p><a class="btn" href="https://github.com/SgtBilko76/csvr-site/releases/download/beta-0.6/CSVR-Beta0.6.apk" download>&#11015; Download CSVR-Beta0.6.apk</a></p>
-<p class="small">Install the APK with <a href="https://sidequestvr.com/app/45868" target="_blank" rel="noreferrer noopener">SideQuest</a>, then follow the <a href="install-csvr/">installation guide</a>.</p>
+<p class="small">Install the APK with the installer below or with <a href="https://sidequestvr.com/app/45868" target="_blank" rel="noreferrer noopener">SideQuest</a>, then follow the <a href="install-csvr/">installation guide</a> to copy the game files.</p>
+<div class="install-card" id="install">
+<h3>Install from your browser</h3>
+<p class="inst-small">One click over USB, for Meta Quest and Pico: no SideQuest needed. Works in Chrome or Edge on a PC, Mac or Android phone.</p>
+<div class="installer" data-config="{&quot;relay&quot;: &quot;https://portroyale-apk-relay.portroyale.workers.dev&quot;, &quot;game&quot;: &quot;CSVR&quot;, &quot;assets&quot;: [{&quot;name&quot;: &quot;CSVR-Beta0.6.apk&quot;, &quot;url&quot;: &quot;https://github.com/SgtBilko76/csvr-site/releases/download/beta-0.6/CSVR-Beta0.6.apk&quot;, &quot;size&quot;: 73839883}]}"><p class="inst-msg">The installer needs JavaScript. Use the download button instead.</p></div>
+<details class="inst-help">
+<summary>First time? Before you start</summary>
+<ol>
+<li>Turn on developer mode. <strong>Quest:</strong> Meta Horizon app on your phone → Devices → your headset → Headset settings → Developer mode. <strong>Pico:</strong> Settings → General → About → tap <em>Software version</em> 7 times, then Settings → Developer → turn on USB debugging.</li>
+<li>Connect the headset to this computer with a USB cable that carries data (not a charge-only cable).</li>
+<li>Close SideQuest and Meta Quest Developer Hub. If you use adb, run <code>adb kill-server</code> first: only one program can talk to the headset at a time.</li>
+<li>Windows: if the headset doesn't show up in the list, install the <a href="https://developers.meta.com/horizon/downloads/package/oculus-adb-drivers/" target="_blank" rel="noreferrer noopener">Meta Quest ADB driver</a>.</li>
+<li>After pressing Connect, put on the headset and allow USB debugging for this computer.</li>
+</ol>
+</details>
+</div>
+<script type="module" src="assets/installer.js"></script>
 </section>
 <h2>Features:</h2>
 <ul>

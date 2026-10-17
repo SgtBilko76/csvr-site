@@ -118,3 +118,29 @@ main {
 }
 .btn:hover { background: #fff; transform: translateY(-2px); }
 .small { font-size: .9rem; opacity: .85; }
+
+/* Browser installer (assets/installer.js, shared with portroyale.online) */
+.install-card { margin: 1.5rem 0; padding: 1.25rem 1.5rem; border: 1px solid rgba(211, 224, 255, .35); border-left: 4px solid #d3e0ff; border-radius: 10px; background: rgba(0, 0, 0, .45); }
+.install-card h3 { margin-top: 0; }
+.inst-small { font-size: .9rem; opacity: .85; margin: 0 0 .8rem; }
+.inst-status { display: flex; align-items: center; gap: .55em; font-weight: 700; font-size: .92rem; padding-bottom: .6rem; margin-bottom: .75rem; border-bottom: 1px solid rgba(211, 224, 255, .25); }
+.inst-dot { width: 10px; height: 10px; border-radius: 50%; background: #6b7280; flex: none; }
+.inst-dot.on { background: #34d399; box-shadow: 0 0 8px #34d399; }
+.inst-body { display: flex; flex-direction: column; gap: .6rem; }
+.inst-body [hidden] { display: none !important; }
+.inst-body .btn { font-family: inherit; font-size: 1rem; border: 0; cursor: pointer; text-align: center; }
+.inst-body .btn-block { display: block; width: 100%; }
+.inst-body .btn-ghost { background: transparent; color: #d3e0ff !important; border: 2px solid #d3e0ff; padding: .45rem 1rem; align-self: flex-start; }
+.inst-body .btn:disabled { opacity: .55; cursor: progress; transform: none; }
+.inst-msg { margin: 0; font-size: .92rem; }
+.inst-ok { color: #6ee7b7; }
+.inst-warn { color: #fbbf24; }
+.inst-err { color: #fca5a5; }
+.inst-bar { height: 8px; background: rgba(255, 255, 255, .12); border-radius: 999px; overflow: hidden; }
+.inst-bar-fill { height: 100%; width: 0; background: #d3e0ff; transition: width .2s; }
+.inst-row { display: flex; align-items: center; gap: .6rem; font-size: .9rem; font-weight: 600; }
+.inst-select { flex: 1; min-width: 0; font: inherit; padding: .4rem; }
+.inst-link { background: none; border: 0; padding: 0; color: #d3e0ff; font: inherit; cursor: pointer; text-decoration: underline; }
+.inst-help { margin-top: .9rem; font-size: .9rem; }
+.inst-help summary { cursor: pointer; font-weight: 600; }
+.inst-help ol { padding-left: 1.3em; margin: .5rem 0 0; }
