@@ -144,3 +144,5 @@ main {
 .inst-help { margin-top: .9rem; font-size: .9rem; }
 .inst-help summary { cursor: pointer; font-weight: 600; }
 .inst-help ol { padding-left: 1.3em; margin: .5rem 0 0; }
+.inst-steps { padding-left: 1.3em; margin: 0; font-size: .92rem; }
+.inst-steps li { margin-bottom: .45em; }
