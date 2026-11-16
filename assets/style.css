@@ -28,6 +28,14 @@ a:hover { color: #fff; }
   background: rgba(0, 0, 0, .75);
   backdrop-filter: blur(6px);
 }
+.promo {
+  display: block; text-align: center; padding: .35rem 1rem;
+  font-size: .85rem; line-height: 1.4; color: #fff; text-decoration: none;
+  background: linear-gradient(90deg, #1e3a8a, #6d28d9);
+}
+.promo strong { color: #d3e0ff; }
+.promo:hover { color: #fff; background: linear-gradient(90deg, #2546a8, #7c3aed); }
+.promo:hover strong { text-decoration: underline; }
 .header__inner {
   max-width: 1100px; margin: 0 auto; padding: .75rem 1.25rem;
   display: flex; align-items: center; justify-content: space-between;
